@@ -134,7 +134,7 @@ border-radius:6px;
 
 ${content}
 
-<a href="https://wa.me/968XXXXXXXX"
+<a href="https://wa.me/96879092559"
 style="position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:14px;border-radius:30px;text-decoration:none;">
 WhatsApp
 </a>
@@ -254,5 +254,7 @@ html+=`<p>${o.product} - ${o.info}</p>`
 res.send(page(html))
 
 })
-
+app.get("/", (req, res) => {
+  res.send("RWES STOR الموقع شغال بنجاح 🚀");
+});
 app.listen(3000,()=>console.log("Server running on port 3000"))
