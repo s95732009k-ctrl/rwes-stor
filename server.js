@@ -254,7 +254,4 @@ html+=`<p>${o.product} - ${o.info}</p>`
 res.send(page(html))
 
 })
-app.get("/", (req, res) => {
-  res.send("RWES STOR الموقع شغال بنجاح 🚀");
-});
 app.listen(3000,()=>console.log("Server running on port 3000"))
